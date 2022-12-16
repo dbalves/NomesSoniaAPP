@@ -37,7 +37,7 @@ class MainActivity : AppCompatActivity() {
         val totalItensArray = nomes.size
         val numeroAleatorio = Random.nextInt(totalItensArray)
         nome.setText(nomes[numeroAleatorio])
-        nome.setTextSize(34F)
+        nome.setTextSize(32F)
         val totalItensArray2 = fotos.size
         val numeroAleatorio2 = Random.nextInt(totalItensArray2)
         foto.setImageResource(fotos[numeroAleatorio2])
